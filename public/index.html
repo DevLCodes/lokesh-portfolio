@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#111827" />
+    <meta name="description" content="Lokesh Kumar - Senior Software Engineer with 6+ years of expertise in distributed systems, ETL pipelines, and event-driven architectures." />
+    <meta name="keywords" content="Lokesh Kumar, Software Engineer, Backend Engineer, Java, Spring Boot, Apache Kafka, AWS, Kubernetes, Docker" />
+    <meta name="author" content="Lokesh Kumar" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Lokesh Kumar - Senior Software Engineer" />
+    <meta property="og:description" content="Backend Engineer with 6+ years of expertise in designing and scaling distributed systems" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lokesh-portfolio.your-domain.com" />
+    <meta property="og:image" content="%PUBLIC_URL%/og-image.jpg" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Lokesh Kumar - Senior Software Engineer" />
+    <meta name="twitter:description" content="Backend Engineer with 6+ years of expertise in designing and scaling distributed systems" />
+    <meta name="twitter:image" content="%PUBLIC_URL%/twitter-image.jpg" />
+
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- Preconnect to external domains for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        gray: {
+                            750: '#374151',
+                            850: '#1f2937',
+                            950: '#111827'
+                        }
+                    },
+                    animation: {
+                        'fade-in-up': 'fadeInUp 0.6s ease-out',
+                        'gradient': 'gradient 3s ease infinite'
+                    },
+                    keyframes: {
+                        fadeInUp: {
+                            '0%': {
+                                opacity: '0',
+                                transform: 'translateY(30px)'
+                            },
+                            '100%': {
+                                opacity: '1',
+                                transform: 'translateY(0)'
+                            }
+                        },
+                        gradient: {
+                            '0%, 100%': {
+                                'background-position': '0% 50%'
+                            },
+                            '50%': {
+                                'background-position': '100% 50%'
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <title>Lokesh Kumar - Senior Software Engineer</title>
+</head>
+<body>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<div id="root"></div>
+</body>
+</html>
